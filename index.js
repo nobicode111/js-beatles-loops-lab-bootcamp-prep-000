@@ -12,3 +12,11 @@ function johnLennonFacts(facts) {
   }
   return jFacts
 }
+function iLoveTheBeatles(n) {
+  var beatle = []
+  do {
+    beatle.push('I love the Beatles!')
+    n++
+  }while (n<15)
+  return beatle
+}
